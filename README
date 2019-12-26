@@ -1,0 +1,11 @@
+fez
+===
+
+fez is an AGPL-licensed git server implementation.
+
+Goals
+-----
+
+  * HTTP- and SSH-based Git protocol support
+  * Extensible authentication and access control mechanisms
+  * (client) Git credential helper for one-time-codes
