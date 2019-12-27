@@ -1,4 +1,4 @@
-# OCaml
+# ocamlc
 *.cmo
 *.cma
 *.cmi
@@ -8,8 +8,14 @@
 *.cmxs
 *.cmx
 
+# dune / ocamlbuild
 _build/
 *.byte
 *.native
+*.install
 
+# opam
 _opam/
+
+# merlin
+*.merlin
