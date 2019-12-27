@@ -1,0 +1,10 @@
+(lang dune 2.0)
+(name fez)
+(version 0.0.0)
+(source (github cbarcenas/fez))
+(license AGPL-3.0-or-later)
+(authors "Christian Barcenas")
+
+(package (name fez-common))
+(package (name fez-client))
+(package (name fez-server))
